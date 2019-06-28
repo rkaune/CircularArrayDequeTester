@@ -21,13 +21,13 @@ public class CircularArrayDequeTester {
         CircularArrayDeque<Integer> circularArrayDeque = new CircularArrayDeque<Integer>();
         
         // test each method to add at front and rear positions
-        circularArrayDeque.enqueueRear(25);
-        circularArrayDeque.enqueueRear(15);
-        circularArrayDeque.enqueueRear(30);
-        circularArrayDeque.enqueueRear(10);
+        circularArrayDeque.enqueueRear(3);
+        circularArrayDeque.enqueueRear(4);
+        circularArrayDeque.enqueueRear(5);
+        circularArrayDeque.enqueueRear(6);
         
-        circularArrayDeque.enqueueFront(35);
-        circularArrayDeque.enqueueFront(20);
+        circularArrayDeque.enqueueFront(2);
+        circularArrayDeque.enqueueFront(1);
         
         System.out.print("The deque is empty.(T/F): ");
         System.out.println(circularArrayDeque.isEmpty());
